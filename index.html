@@ -1,0 +1,63 @@
+<html lang="is">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Generate a <br /><span class="orange-text">random password</span></h1>
+      <p>Never use an insecure password again.</p>
+
+      <label for="password-length"
+        >Password length between <br />
+        5 and 20 characters</label
+      >
+      <input
+        type="number"
+        class="passwordlength"
+        id="password-length"
+        value="15"
+        min="5"
+        max="20"
+      />
+
+      <div class="toggle-group">
+        <input
+          type="checkbox"
+          id="lower-case"
+          name="lower-case"
+          value="lower-case"
+        />
+        <label for="lower-case">Lower case letters</label>
+      </div>
+
+      <div class="toggle-group">
+        <input
+          type="checkbox"
+          id="upper-case"
+          name="upper-case"
+          value="upper-case"
+        />
+        <label for="upper-case">Upper case letters</label>
+      </div>
+
+      <div class="toggle-group">
+        <input type="checkbox" id="numbers" name="numbers" value="numbers" />
+        <label for="numbers">Numbers</label>
+      </div>
+
+      <div class="toggle-group">
+        <input type="checkbox" id="symbols" name="symbols" value="symbols" />
+        <label for="symbols">Symbols</label>
+      </div>
+
+      <button id="generate-btn">Generate password</button>
+      <hr />
+      <div class="password-container">
+        <div id="password-one" class="password-box"></div>
+        <div id="password-two" class="password-box"></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
