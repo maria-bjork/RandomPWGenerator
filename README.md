@@ -14,7 +14,7 @@ A clean, dark-mode web application that generates customizable, secure passwords
 - **Click-to-Copy:** Click any generated password box to automatically copy the text to your clipboard.
 - **Interactive UI:** Smooth CSS hover transitions and responsive Flexbox layout.
 
-## 🛠️ Built With
+## Built With
 
 - **HTML5:** Semantic structure and form input elements (`number`, `checkbox`).
 - **CSS3:** Custom dark theme, Flexbox layout, dynamic hover transitions, and responsive styling.
